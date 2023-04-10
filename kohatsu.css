@@ -1,0 +1,111 @@
+body {
+    background-image: url(images/b003.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "游明朝";
+}
+
+header{
+    /* position: fixed; */
+    display:flex;
+    width: 100%; /* 幅いっぱいを指定 */
+    height: 100px; /* 高さを50pxに指定 */
+    border: 1px solid blue; 
+    background-image: url(images/paper.png);
+}
+
+header h1 {
+    margin: auto 0;
+}
+
+.tab {  
+    list-style: none;
+    margin: auto 0;
+    font-size: 25px;
+}
+
+.tab1 {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.honbun {
+    font-size: 20px;
+}
+
+.midasi {
+    font-size: 25px;
+}
+
+.flex_home,.flex_profile {
+    display: flex;
+    padding: 20px 0 10px 10px;
+    margin: 0 10px 20px 10px;
+    /* border: 2px solid pink; */
+    background-color: rgb(255, 220, 226);
+}
+
+.flex ul {
+    width: 30%;
+    font-size: 17px;
+    
+}
+
+.flex_yonabaru {
+    margin-top: 10px;
+    display: flex;
+}
+
+.flex_yonabaru img {
+    margin: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+.flex_yonabaru .yakuba,.matinami {
+    width: 50%;
+    text-align: center;
+}
+
+.plofile1 {
+    display:block;
+}
+
+
+
+.plofile2,.profile3{
+    width: 50%;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+.flex_hobby {
+    display: flex;
+}
+
+.flex_hobby .ps4,.switch{
+    width: 50%;
+    margin: 10px;
+}
+
+.ps4 {
+    background-color: rgb(255, 220, 226);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.switch {
+    background-color: rgb(206, 206, 245);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.anime {
+    background-color: rgb(250, 233, 202);
+    border-radius: 10px;
+    padding: 10px;
+}
